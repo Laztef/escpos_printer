@@ -16,6 +16,8 @@ def main(page: ft.Page):
     
     # Diccionario de reemplazos (palabra clave: valor a reemplazar)
     def procesar_texto(e):
+        # IMPORTANTE DECLARAR EL NOMBRE REAL DE LA IMPRESORA A UTILIZAR
+        # EN LA VARIABLE "printer_name"
         printer_name = "posnet"
         # Obtener texto original
         texto_original = tf_texto.value
